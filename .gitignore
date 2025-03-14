@@ -174,3 +174,55 @@ cython_debug/
 .pypirc
 
 .idea
+
+
+__pycache__/
+*.pyc
+*.zip
+*.exe
+*.lnk
+*.log
+*.dat
+*.ini
+AppData/
+Documents/
+Downloads/
+Favorites/
+Music/
+Pictures/
+Videos/
+*.regtrans-ms
+*.blf
+*.sqlite
+*.db
+
+
+# Игнорируем системные файлы и конфиги
+*.lnk
+*.exe
+*.log
+*.dat
+*.ini
+*.regtrans-ms
+*.blf
+
+# Игнорируем кэш Python
+__pycache__/
+*.pyc
+
+# Игнорируем SQL-скрипты (если не нужны в репозитории)
+*.sql
+
+# Игнорируем пользовательские файлы и загрузки
+Downloads/
+Documents/
+Pictures/
+Videos/
+Music/
+Saved Games/
+WPS Cloud Files/
+Personal Vault.lnk
+
+# Игнорируем файлы PostgreSQL
+edb_*
+postgresql_*.exe
